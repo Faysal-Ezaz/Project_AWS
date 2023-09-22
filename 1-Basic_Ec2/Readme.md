@@ -5,9 +5,9 @@ a) By using the EC2 user data Script, we can bootstrap our EC2 instances.
 b) Bootstrapping means "Launching Commands" when a machine starts. 
 This script is only run once, when the machine first starts! 
 EC2 User Data is used to automate tasks like: 
-    i) Installing Updates. 
-    ii) Installing Software. 
-    iii) Downloading common files from the Internet, and so on. 
+i) Installing Updates. 
+ii) Installing Software. 
+iii) Downloading common files from the Internet, and so on. 
 A point to be noted is that the EC2 User Data Script runs with the 'Root User'. 
 To know more about the EC2 User Data and BootStraps refer to this website : (https://blog.devops.dev/aws-ec2-elastic-compute-cloud-8f964f844461). Friendly reminder " I am not the owner of the content in the 'medium website' and I am pasting the link just for reference purpose. 
 
@@ -40,32 +40,32 @@ Step 4: Launch an Instance Tab opens up, now we follow the steps:
   ![Screenshot (1259)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/476817aa-5733-437e-856c-78dc78c757e3)
   
   d) For Key Pair Login, we click on "Create new Key Pair" and the following window shows up. 
-    i) Here we enter the name as "EC2 Tutorial". 
-    ii) For 'Key Pair type', we select "RSA". 
-    iii) For 'Private File Key Format", we select ".pem"(For Windows 10 and higher, linux and MAC) or ".ppk" for (Windows 8 or lower).
-    iv) Then we click on 'Create Key Pair'.
+  i) Here we enter the name as "EC2 Tutorial". 
+  ii) For 'Key Pair type', we select "RSA". 
+  iii) For 'Private File Key Format", we select ".pem"(For Windows 10 and higher, linux and MAC) or ".ppk" for (Windows 8 or lower).
+  iv) Then we click on 'Create Key Pair'.
     ![Screenshot (1271)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/7e760256-1376-49ca-85e0-988c214b32f4)
   
   e) Under 'Network Settings', we leave most of the things untouched and only change a few settings: 
-    i) Enable Allow HTTPS traffic from the Internet. 
-    ii) Enable Allow HTTP traffic from the Internet.
+  i) Enable Allow HTTPS traffic from the Internet. 
+  ii) Enable Allow HTTP traffic from the Internet.
     ![Screenshot (1272)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/e15629df-e683-4cf1-94b5-8b91f4e3d951)
   
   f) Under Storage(Volumes), we need to change one setting: 
-    i) Firstly we have to click on 'Advanced'. 
-    ii) Then we click on 'Show Details'. 
-    iii) Then we turn on 'Delete on Termination'.
+  i) Firstly we have to click on 'Advanced'. 
+  ii) Then we click on 'Show Details'. 
+  iii) Then we turn on 'Delete on Termination'.
     ![Screenshot (1262)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/60f6a05c-a119-4a49-b23f-c00bd7546544)
   
   g) Under Advanced details, we have to set the EC2 User Data Script, bootstrap. 
-    i) Firstly click on the arrow next to Advanced details, so we get more options.
-    ii) Then we scroll down to 'User Data' 
-    iii) Then we enter the following code (Please copy the code from the attached screenshot!). 
+  i) Firstly click on the arrow next to Advanced details, so we get more options.
+  ii) Then we scroll down to 'User Data' 
+  iii) Then we enter the following code (Please copy the code from the attached screenshot!). 
     ![Screenshot (1263)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/c1237bfa-02b2-4b64-8774-605b13431bc1)
   
   h) Under Summary check all the information provided.
-    i) We only keep '1' instance. 
-    ii) Then we click on 'Launch Instance'. 
+  i) We only keep '1' instance. 
+  ii) Then we click on 'Launch Instance'. 
     ![Screenshot (1264)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/f1726038-b1fe-44a8-9422-fdb4cad9691a) 
 
 
