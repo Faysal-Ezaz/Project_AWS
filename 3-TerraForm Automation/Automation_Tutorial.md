@@ -98,4 +98,4 @@ i) Click on <b>Create Access Key</b>.
 
 j) Download the <b>'.csv'</b> after this. (Congratulations ☺️☺️ we are done with the first part of the project).  
 
-A short note on the <id = "section1">Access Key</id>
+A short note on the <b id = "section1">Access Key</b>
