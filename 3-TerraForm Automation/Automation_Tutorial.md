@@ -5,7 +5,7 @@ Pre-requisits:
 
 
 
-<h2><a href = "https://releases.hashicorp.com/terraform/1.5.7/terraform_1.5.7_windows_386.zip">Software Requirements:</a></h2>  (click here for the direct link!) 
+<h2><a href = "https://releases.hashicorp.com/terraform/1.5.7/terraform_1.5.7_windows_386.zip">Software Requirements:</a></h2>   
 Head over to this website to install Terraform (https://developer.hashicorp.com/terraform/downloads)  
 Then install the following  
 
