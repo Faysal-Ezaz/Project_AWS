@@ -50,7 +50,7 @@ Now I am assuming you already have an AWS Account. So, we shall login to our res
 
 
 <h2>The general workflow will be as follows:</h2> 
-Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on <a href = "#section1"><b>Access Key</b></a> later on in this project and why it is actually used/needed. 
+Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on <a href = "#section1">Access Key</a> later on in this project and why it is actually used/needed. 
 Secondly, we will open GitBash and type in some command, along with some code that will help us automate the entire process!  
 
 <strong>Here are the commands that we will use in Gitbash.</strong>  
@@ -98,4 +98,4 @@ i) Click on <b>Create Access Key</b>.
 
 j) Download the <b>'.csv'</b> after this. (Congratulations ☺️☺️ we are done with the first part of the project).  
 
-A short note on the <b id = "section1">Access Key</b>
+A short note on the <a id = "section1">Access Key</a>
