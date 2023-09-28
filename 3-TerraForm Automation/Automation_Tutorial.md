@@ -38,7 +38,9 @@ Next comes the part where we add the path for the software in system variables. 
 </ul>  
 Also keep in mind that there is no requirement to add the path variable for GitBash like we did for Terraform!  
 
+
 In order to validate that <b>terraform</b> has been installed properly and the path is working fine, we have to run the following commands in "GitBash"  
+
 Open Gitbash and type the command: <b>terraform version</b>.  
 If it appears just like the following, then we can be rest assured that our terraform and gitbash are working just fine.  
 
