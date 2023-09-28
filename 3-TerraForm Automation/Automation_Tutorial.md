@@ -107,16 +107,14 @@ A short note on the <a id = "section1">Access Key</a>:
 Now enter the description for EC2 instance "AMI key".  
 
 <strong>Step-2: Working with EC2 instance.</strong> (We will type EC2 in the Search box).  
-<ol type="a">
-  <li>Under Instances, click on <b>Launch Instances</b>
-  ![Screenshot (1365)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/7b79358b-b461-4ee0-93e6-4da0409ad647)
-  </li>  
-  <li>Under <i>Names and Tags</i>, enter any name
-  ![Screenshot (1366)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/dd109ba0-493e-429b-9c26-f74fd82a6b7d)
-  </li>
-  <li>From Amazon Machine Image Section, we copy the <b>"AMI ID"</b> and store it on a notepad for later use. 
-  ![Screenshot (1367)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/18c137c0-7435-4af1-afd6-3f55fee39f94)
-  </li> 
-</ol>  
+a) Under Instances, click on <b>Launch Instances</b>
+  ![Screenshot (1365)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/7b79358b-b461-4ee0-93e6-4da0409ad647)  
+  
+b) Under <i>Names and Tags</i>, enter any name
+![Screenshot (1366)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/dd109ba0-493e-429b-9c26-f74fd82a6b7d)  
+
+c) From Amazon Machine Image Section, we copy the <b>"AMI ID"</b> and store it on a notepad for later use. 
+![Screenshot (1367)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/18c137c0-7435-4af1-afd6-3f55fee39f94)  
+
 The <b>Main Purpose</b> for using the <i>AWS EC2 service</i> was to fetch the <b>AMI ID</b> and nothing more.  
 
