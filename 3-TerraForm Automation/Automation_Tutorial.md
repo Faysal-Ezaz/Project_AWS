@@ -36,9 +36,18 @@ Next comes the part where we add the path for the software in system variables. 
   <li>Head over to this website: (https://git-scm.com/download/win) and select the option <b>"64-bit Git for Windows Setup."</b></b></li>  
   <li>Otherwise click on this link for the direct installation: (https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe)</li>
 </ul>  
+Also keep in mind that there is no requirement to add the path variable for GitBash like we did for Terraform!  
+
+In order to validate that <b>terraform</b> has been installed properly and the path is working fine, we have to run the following commands in "GitBash"  
+Open Gitbash and type the command: <b>terraform version</b>.  
+If it appears just like the following, then we can be rest assured that our terraform and gitbash are working just fine.  
+
+![Screenshot (1355)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/fea9807e-903a-45ae-a51d-95db44ab3cf3)
+
+Now I am assuming you already have an AWS Account. So, we shall login to our respective AWS Accounts.  
 
 
-The general workflow will be as follows: 
+<h2>The general workflow will be as follows:</h2> 
 Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on Access Key later on in this project and why it is actually used. 
 Secondly, we will open GitBash and type in some command, 
 
