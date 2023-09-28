@@ -67,6 +67,34 @@ Secondly, we will open GitBash and type in some command, along with some code th
   <li><strong>terraform plan</strong>: This command <i>creates an execution plan</i>, and lets us <i>preview</i> the changes that terraform will make to our infrastructure.</li>
   <li><strong>terraform validate</strong>: This command is used to <i>validate the syntax</i> of the terraform file. </li> 
   <li><strong>terraform apply</strong>: This command <i>carries out the planned changes</i> to each resource using the relevant infrastructure provider's API.</li> 
-  <li><strong></strong>: This command <i>terminates resources</i> managed by our terraform project.</li>
+  <li><strong>terraform delete</strong>: This command <i>terminates resources</i> managed by our terraform project.</li>
 </ul>  
+
+Now, lets start with the hands-on: 
+
+Step-1: Working with AWS IAM service. (we open aws console and type IAM on the search bar) 
+a) Under <i>Access Management</i>, we click on <b>'Users'</b> and then, click on <b><b>"Create User"</b></b>.  
+![Screenshot (1356)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/5c1d379f-c28d-4d25-86aa-3b908bcc7d2e)  
+
+b) Under "User Details", we enter <b>GitTerraformUser</b> as the Username then click on <i>Next</i>.  
+![Screenshot (1357)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/8035e173-0e30-4111-850e-9cb2bbbd431d)  
+
+c) Under 'Permission Options', we have to click on the third option <b>Attach Policies Directly</b>.  
+d) Under 'Permission Policies', we have to select <b>AdministratorAccess</b> and then click on <i>Next</i>  
+![Screenshot (1358)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/84f1858e-ca7a-417c-9940-75713052bae6)  
+
+e) Under <b>Review and Create</b>, click on <i>Create User</i>. And hence the user is created.   
+![Screenshot (1361)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/2d5799c7-18f1-4fbd-a4ff-e213b0c25253)  
+
+f) We have to create an <i>Access Key</i> for the 'User' for this, click on the 'GitTerraformUser' in the IAM Console.  
+g) Then 'GitTerraformUser', click on <b>Create Access Key</b> under <i>Access Key 1</i>.  
+![Screenshot (1362)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/24869030-6d93-4d41-8f3d-7a3c3100ad33)  
+
+h) Then in the followup window, under <i>Access key best practices & alternatives</i>, select the 3rd option, click on the check-box and finally click on 'Next'.  
+![Screenshot (1363)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/454b8d7d-1065-4d6f-ada1-ee31d7e0e23d)  
+
+i) Click on <b>Create Access Key</b>.  
+![Screenshot (1364)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/115052d3-23fc-47c1-8d51-24744562d2ab)  
+
+j) Download the <b>'.csv'</b> after this. (Congratulations ☺️☺️ we are done with the first part of the project).
 
