@@ -54,11 +54,19 @@ Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role an
 Secondly, we will open GitBash and type in some command, along with some code that will help us automate the entire process!  
 
 <strong>Here are the commands that we will use in Gitbash.</strong>  
+<strong>Basic Linux Commands to be used.</strong>
 <ul>
-  <li>Basic Linux Commands to be used.</li>
   <li><strong>cd</strong>: This command is used to change directory. (Changing folders to be more precise 😅😅)</li>  
   <li><strong>mkdir</strong>: This will allow us to create a new folder!</li>  
   <li><strong>ls</strong>: This command helps us list all the files in the directory(folder).</li>  
 </ul>  
+<b>Terraform Commands to be used</b>  
+<ul>
+  <li><strong>vi</strong>: This command is used to create a new terrraform file and the extension of this file is <b>'.tf'</b>.</li>
+  <li><strong>terraform init</strong>: This command is used to <i>set up</i> the Terraform backend, modules, and providers.</li>
+  <li><strong>terraform plan</strong>: This command <i>creates an execution plan</i>, and lets us <i>preview</i> the changes that terraform will make to our infrastructure.</li>
+  <li><strong>terraform validate</strong>: This command is used to <i>validate the syntax</i> of the terraform file. </li> 
+  <li><strong>terraform apply</strong>: This command <i>carries out the planned changes</i> to each resource using the relevant infrastructure provider's API.</li> 
+  <li><strong></strong>: This command <i>terminates resources</i> managed by our terraform project.</li>
+</ul>  
 
-<ul><b>Terraform Commands to be used</b></ul>
