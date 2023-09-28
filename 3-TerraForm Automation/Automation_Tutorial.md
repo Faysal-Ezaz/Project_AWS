@@ -140,7 +140,7 @@ Now the steps to be followed are:
 Whenever we type in the command, <b>{vi file1.tf}</b>, inside the GitBash console, another screen appears.  
 Inside that console, First we will have to press the <b>Insert</b> keyboard button, for us to be able to write any code on the console.  
 ![Screenshot (1370)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/96a4e0bc-5628-4f88-a061-1e0e806a0f9b)  
-The console like this.  
+The console looks like this.  
 
 Now we come back to the coding part:  (Keep in mind that all of the code will be TerraForm Code)
 
@@ -152,12 +152,12 @@ a) We then paste it in the GitBash Console <b>(refer to the below screenshot bef
 It should look like this.  
 
 b) Now there is another important step to be followed to exit the input console. <b>Press the <b>ESC</b> Keyboard button</b> then type in <i>:wq</i> and press enter, it should look something like this.  
-![Screenshot (1372)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/5a5ee098-e3e4-4706-aad1-7533d7845a57)  
+![Screenshot (1372)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/4504e640-0b2a-4a83-9981-d44243c56c33)
 
 c) Then in the original GitBash console, type the command <b>terraform init</b> (refer to the below screenshot)!! 
 ![Screenshot (1375)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/776fd244-a5d7-4f88-b451-5a0f90740407)  
 
-d) We will again type the command <b>vi file1.tf</b>, following this the GitBash input console will appear again, there we will past the following code( Please refer to step{e} for code fetching.  
+d) We will again type the command <b>vi file1.tf</b>, following this the GitBash input console will appear again, there we will paste the following code( Please refer to step{e} for code fetching.  
 ![Screenshot (1378)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/ae2ff9a2-e3e8-4e35-aecd-96d0568f8ab4)
 
 e) For this, we will have to scroll down to <b>"Provider Configuration"</b> and then copy the code from <i>Usage:</i>
@@ -166,7 +166,7 @@ e) For this, we will have to scroll down to <b>"Provider Configuration"</b> and 
 <b>Important</b>
 Please keep in mind that <b>one change</b> has been made to the code, that is (<b>region = "us-west-2"<b> has been changed to <i>region = "ap-south-1"<i>). This is region specific and can be changed accorddingly.  
 Now we previously saved the <b>Access Key</b> ".csv" file, we need to open that and paste that in their respective places.  
-<b>access_key = "AKIARLWOAA5XCJNJ74EU" </b> 
+<b>access_key = "AKIARLWOAA5XCJNJ74EU" </b>  
 <b>secret_key = "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" </b>  
 Keep in mind that you have to make changes accordingly, the above <i>access_key</i> and <i>secret_key</i> are copied from my <b>.csv file</b>.  
 
