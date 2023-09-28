@@ -72,7 +72,7 @@ Secondly, we will open GitBash and type in some command, along with some code th
 
 Now, lets start with the hands-on: 
 
-Step-1: Working with AWS IAM service. (we open aws console and type IAM on the search bar) 
+<strong>Step-1: Working with AWS IAM service.</strong> (we open aws console and type IAM on the search bar) 
 a) Under <i>Access Management</i>, we click on <b>'Users'</b> and then, click on <b><b>"Create User"</b></b>.  
 ![Screenshot (1356)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/5c1d379f-c28d-4d25-86aa-3b908bcc7d2e)  
 
@@ -98,4 +98,25 @@ i) Click on <b>Create Access Key</b>.
 
 j) Download the <b>'.csv'</b> after this. (Congratulations ☺️☺️ we are done with the first part of the project).  
 
-A short note on the <a id = "section1">Access Key</a>
+A short note on the <a id = "section1">Access Key</a>:  
+<ul>
+  <li>Access keys are long-term credentials for an IAM user or the AWS account root user</li>  
+  <li>We can use access keys to sign programmatic requests to the AWS CLI or AWS API (directly or using the AWS SDK).</li>  
+</ul>  
+
+Now enter the description for EC2 instance "AMI key".  
+
+<strong>Step-2: Working with EC2 instance.</strong> (We will type EC2 in the Search box).  
+<ol type="a">
+  <li>Under Instances, click on <b>Launch Instances</b>
+  ![Screenshot (1365)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/7b79358b-b461-4ee0-93e6-4da0409ad647)
+  </li>  
+  <li>Under <i>Names and Tags</i>, enter any name
+  ![Screenshot (1366)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/dd109ba0-493e-429b-9c26-f74fd82a6b7d)
+  </li>
+  <li>From Amazon Machine Image Section, we copy the <b>"AMI ID"</b> and store it on a notepad for later use. 
+  ![Screenshot (1367)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/18c137c0-7435-4af1-afd6-3f55fee39f94)
+  </li> 
+</ol>  
+The <b>Main Purpose</b> for using the <i>AWS EC2 service</i> was to fetch the <b>AMI ID</b> and nothing more.  
+
