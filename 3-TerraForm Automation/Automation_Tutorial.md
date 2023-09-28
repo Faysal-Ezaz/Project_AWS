@@ -53,7 +53,7 @@ Now I am assuming you already have an AWS Account. So, we shall login to our res
 Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on <b>Access Key</b> later on in this project and why it is actually used/needed. 
 Secondly, we will open GitBash and type in some command, along with some code that will help us automate the entire process!  
 
-<h2>Here are the commands that we will use in Gitbash.<h2>  
+<strong>Here are the commands that we will use in Gitbash.</strong>  
 <ul>
   <li>Basic Linux Commands to be used.</li>
   <li><strong>cd</strong>: This command is used to change directory. (Changing folders to be more precise 😅😅)</li>  
