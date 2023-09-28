@@ -13,6 +13,7 @@ Then install the following
 Then we will head over to 'C' drive of our system and inside 'C' drive we open "Program Files".  
 Inside 'Program Files', we will create a folder "terraform" and then unzip the previously downloaded software (terraform software).  
 Next comes the part where we add the path for the software in system variables. For this we have to follow the steps:  
+
 <ul>
   <li>Press on the windows key and type <b>Edit the System Environment Variable</b>.</li>
   <li>![image](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/74e42957-5368-4e52-a82a-e4a9ba0916cb)</li>
@@ -21,7 +22,7 @@ Next comes the part where we add the path for the software in system variables. 
   <li>It should look something like this: ![image](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/8b94140e-ffce-45f4-afb0-74dec447b931)</li>  
   <li>Then, the copied path to be pasted should look something like this: ![image](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/33ea6d59-3085-484e-93ab-4b8ec6baf49b)</li>  
   <li>Then click on 'ok' and we are basically done setting up the environment variable. </li>
-</ul>
+</ul>  
 
 Here we will be borrowing some of our code from the following website: (https://registry.terraform.io/providers/hashicorp/aws/latest/docs).  Again this website doesnot belong to me and is only for reference purpose.
 
