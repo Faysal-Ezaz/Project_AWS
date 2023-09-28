@@ -7,7 +7,8 @@ Pre-requisits:
 
 <h2><a href = "https://releases.hashicorp.com/terraform/1.5.7/terraform_1.5.7_windows_386.zip">Software Requirements:</a></h2>   
 Head over to this website to install Terraform (https://developer.hashicorp.com/terraform/downloads)  
-Then install the following  
+Then install the following
+  
 
 ![Screenshot (1352)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/c014ecc1-d2bf-4dd3-b0c0-0c45fc2c9766)  
 Then we will head over to 'C' drive of our system and inside 'C' drive we open "Program Files".  
