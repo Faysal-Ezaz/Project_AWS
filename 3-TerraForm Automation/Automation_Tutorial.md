@@ -5,7 +5,7 @@ Pre-requisits:
 
 
 
-<h2>Software Requirements:</h2>  
+<h2><a href = "https://developer.hashicorp.com/terraform/downloads">Software Requirements:</a></h2>  
 Head over to this website to install Terraform (https://developer.hashicorp.com/terraform/downloads)  
 Then install the following  
 
