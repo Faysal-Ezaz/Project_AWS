@@ -25,14 +25,21 @@ Next comes the part where we add the path for the software in system variables. 
   <li>Then click on 'ok' and we are basically done setting up the environment variable. </li>
 </ul>  
 
-Here we will be borrowing some of our code from the following website: (https://registry.terraform.io/providers/hashicorp/aws/latest/docs).  Again this website doesnot belong to me and is only for reference purpose.
 
+<h2> Tools Required for this mini Automation Project:</h2>  
+  a) Git Bash.  
+  b) AWS Console.  
+  
 
-
-Tools Required for this mini Automation Project: 
-  a) Gitbash.
-  b) AWS Console.
-
+<h2>Steps to install GitBash are as follows:</h2>  
+<ul>
+  <li>Head over to this website: (https://git-scm.com/download/win) and select the option <b>"64-bit Git for Windows Setup."</b></b></li>  
+  <li>Otherwise click on this link for the direct installation: (https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe)</li>
+</ul>
 The general workflow will be as follows: 
 Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on Access Key later on in this project and why it is actually used. 
 Secondly, we will open GitBash and type in some command, 
+
+
+
+Here we will be borrowing some of our code from the following website: (https://registry.terraform.io/providers/hashicorp/aws/latest/docs).  Again this website doesnot belong to me and is only for reference purpose.
