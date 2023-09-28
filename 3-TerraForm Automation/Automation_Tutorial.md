@@ -50,9 +50,15 @@ Now I am assuming you already have an AWS Account. So, we shall login to our res
 
 
 <h2>The general workflow will be as follows:</h2> 
-Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on Access Key later on in this project and why it is actually used. 
-Secondly, we will open GitBash and type in some command, 
+Firstly, we will create an IAM user, assign it the "AdministratorAccess" Role and finally create an "Access Key". More on <b>Access Key</b> later on in this project and why it is actually used/needed. 
+Secondly, we will open GitBash and type in some command, along with some code that will help us automate the entire process!  
 
+<h2>Here are the commands that we will use in Gitbash.<h2>  
+<ul>
+  <li><h4>Basic Linux Commands to be used.</h4></li>
+  <li><strong>cd</strong>: This command is used to change directory. (Changing folders to be more precise 😅😅)</li>  
+  <li><strong>mkdir</strong>: This will allow us to create a new folder!</li>  
+  <li><strong>ls</strong>: This command helps us list all the files in the directory(folder).</li>  
+</ul>  
 
-
-Here we will be borrowing some of our code from the following website: (https://registry.terraform.io/providers/hashicorp/aws/latest/docs).  Again this website doesnot belong to me and is only for reference purpose.
+<ul><h4><b>Terraform Commands to be used</b></h4></ul>
