@@ -170,3 +170,39 @@ Now we previously saved the <b>Access Key</b> ".csv" file, we need to open that 
 <b>secret_key = "a5LFXdaz3a2fcFCz7/vu7H5TlxZTnf/jM9HK4fJv" </b>  
 Keep in mind that you have to make changes accordingly, the above <i>access_key</i> and <i>secret_key</i> are copied from my <b>.csv file</b>.  
 
+f) In order to exit the GitBash Input console we again press the <b>ESC</b> keyboard key and type the command "<i>:wq</i>". This will send us back to the original GitBash Console.  
+
+g) Then we type in the command <b>terraform validate</b>.   
+![Screenshot (1378)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/40b7502a-0c19-40cd-bdd9-8ecde2b269f4)  
+
+h) We again return to the GutBash input console by typing the command "<b>vi file1.tf</b>".  
+
+i) Next we head back to the Terraform Website and there under "<i>aws provider</i>" we have to find "<i>EC2(Elastic Compute Cloud)</i>".  
+![Screenshot (1376)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/18d72230-5077-4f25-804a-6eff7993b94e)  
+
+j) We will have to copy a section of the code, for this under "Resources", we scroll down to "<b>aws_instance</b>"  
+![Screenshot (1380)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/0ca90cfc-ce63-4220-8ab7-59c7512f8ee0)  
+
+k) Then we copy the following code:  
+![Screenshot (1381)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/f1fd9121-884a-4330-859c-d55f0ee7a46c)  
+
+l) We past the code in the GitBash Input console: (also keep in mind that we have made a few changes, refer to the below screenshot for proper reference, especially the ami-id <b><i>REFER to step-2 part(c)</i></b> for this!)  
+![Screenshot (1382)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/a56e80cb-db45-40ca-b1b2-5f50c67f6b51)  
+
+m) We then press the "<b>ESC</b> button and then type the command "<i>:wq<i>", this will return us to the original GitBash console.  
+![Screenshot (1383)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/93a51dec-231d-4997-aafa-c753c3b4d4ac)  
+
+Step-5: From this step onwards, we will see how the EC2 instance is automatically created 
+a) In the GitBash console, type the command "<b>terraform validate</b>. This will check for any potential errors.  
+![Screenshot (1384)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/e1fa5dba-ba15-4330-8592-e2fa6967b4f8)  
+
+b) Then we type the command "<b>terraform plan</b>".  
+![Screenshot (1386)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/a18e48b8-3c20-430d-a739-9f4e8d875654)  
+![Screenshot (1387)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/f2a7010f-31ac-448e-8a12-da5aac1b6cf0)  
+
+c) Then we type in the command "<b>terraform apply</b>"  
+![Screenshot (1388)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/ab05dee9-18b9-41b8-a163-8bf155242c2e)  
+after this type in "yes" (refer to the below screenshot)  
+
+
+
