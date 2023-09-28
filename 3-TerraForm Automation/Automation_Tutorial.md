@@ -118,3 +118,55 @@ c) From Amazon Machine Image Section, we copy the <b>"AMI ID"</b> and store it o
 
 The <b>Main Purpose</b> for using the <i>AWS EC2 service</i> was to fetch the <b>AMI ID</b> and nothing more.  
 
+Now we will be working with <b>Terraform Commands</b> to automate the entire process, for this we have to open <b>GitBash</b> and enter the following commands.  
+
+Step 3: Open <b>GitBash</b> and do the following steps:  (Please keep in mind that for me by default the gitbash opens in C Drive, so i will do it accordingly).  
+a) <b>cd</b> documents   (This is used to change the directory to <b>documents</b>)
+b) <b>mkdir</b> terraformFolder   (This is used to create a new folder named <b>terraform</b>)  
+c) <b>cd</b> terraformFolder   (This is used to change the folder to <b>terraform</b>.)
+d) <b>mkdir</b> GitUploadProject   (This is used to create a new folder named <b>GitUploadProject</b>)  
+e) <b>cd</b> GitUploadFolder   (This is used to change the folder to <b>GitUploadProject</b>)
+f) <b>vi</b> file1.<b>tf</b>   (This is a <b>terraform</b> command to create a <b>new terraform file</b>)  
+
+![Screenshot (1369)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/a6aef5d6-a6f9-4596-9aa5-ea59f601f8b8)  
+Your GitBash should look something like this.  
+
+Now we will have to take reference code from the <strong>terraform website</strong>.  
+(https://registry.terraform.io/providers/hashicorp/aws/latest/docs) This is the official website from which we shall be borrowing the code snippets.  
+
+<h2>Important</h2>  
+
+Now the steps to be followed are:  
+Whenever we type in the command, <b>{vi file1.tf}</b>, inside the GitBash console, another screen appears.  
+Inside that console, First we will have to press the <b>Insert</b> keyboard button, for us to be able to write any code on the console.  
+![Screenshot (1370)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/96a4e0bc-5628-4f88-a061-1e0e806a0f9b)  
+The console like this.  
+
+Now we come back to the coding part:  (Keep in mind that all of the code will be TerraForm Code)
+
+Step-4: We head over to the Terraform website and copy the following highlighted code snippet.  
+![Screenshot (1371)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/566d5e08-0060-4729-a5ec-bf98d5dd5904)  
+
+a) We then paste it in the GitBash Console <b>(refer to the below screenshot before proceeding with this step)</b>  
+![Screenshot (1372)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/eb92f000-3c94-4806-b8d9-f1a085b5f74e)  
+It should look like this.  
+
+b) Now there is another important step to be followed to exit the input console. <b>Press the <b>ESC</b> Keyboard button</b> then type in <i>:wq</i> and press enter, it should look something like this.  
+![Screenshot (1372)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/5a5ee098-e3e4-4706-aad1-7533d7845a57)  
+
+c) Then in the original GitBash console, type the command <b>terraform init</b> (refer to the below screenshot)!! 
+![Screenshot (1375)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/776fd244-a5d7-4f88-b451-5a0f90740407)  
+
+d) We will again type the command <b>vi file1.tf</b>, following this the GitBash input console will appear again, there we will past the following code( Please refer to step{e} for code fetching.  
+![Screenshot (1378)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/ae2ff9a2-e3e8-4e35-aecd-96d0568f8ab4)
+
+e) For this, we will have to scroll down to <b>"Provider Configuration"</b> and then copy the code from <i>Usage:</i>
+![Screenshot (1377)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/75368ec6-f0a2-47d5-85dd-cd117b7f2eb4)  
+
+<b>Important</b>
+Please keep in mind that <b>one change</b> has been made to the code, that is (<b>region = "us-west-2"<b> has been changed to <i>region = "ap-south-1"<i>). This is region specific and can be changed accorddingly.  
+Now we previously saved the <b>Access Key</b> ".csv" file, we need to open that and paste that in their respective places.  
+<b>access_key = "AKIARLWOAA5XCJNJ74EU" </b> 
+<b>secret_key = "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" </b>  
+Keep in mind that you have to make changes accordingly, the above <i>access_key</i> and <i>secret_key</i> are copied from my <b>.csv file</b>.  
+
