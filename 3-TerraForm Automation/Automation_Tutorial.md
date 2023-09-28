@@ -1,4 +1,4 @@
-This is a project where I shall be using <b>Terraform</b> to Automate the creation of an EC2 instance/instances.<br> 
+This is a project where I shall be using <b>Terraform</b> to Automate the creation of an EC2 instance/instances.  
 Pre-requisits: (a) <b>AWS IAM</b> and (b) <b>AWS EC2</b>. Please keep in mind that this will contain a detailed explaination of all the commands used and all the steps followed. 
 
   
