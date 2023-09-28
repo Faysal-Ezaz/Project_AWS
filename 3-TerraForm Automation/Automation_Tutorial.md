@@ -55,10 +55,10 @@ Secondly, we will open GitBash and type in some command, along with some code th
 
 <h2>Here are the commands that we will use in Gitbash.<h2>  
 <ul>
-  <li><h4>Basic Linux Commands to be used.</h4></li>
+  <li>Basic Linux Commands to be used.</li>
   <li><strong>cd</strong>: This command is used to change directory. (Changing folders to be more precise 😅😅)</li>  
   <li><strong>mkdir</strong>: This will allow us to create a new folder!</li>  
   <li><strong>ls</strong>: This command helps us list all the files in the directory(folder).</li>  
 </ul>  
 
-<ul><h4><b>Terraform Commands to be used</b></h4></ul>
+<ul><b>Terraform Commands to be used</b></ul>
