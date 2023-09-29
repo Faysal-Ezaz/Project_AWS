@@ -27,7 +27,6 @@ Now we are greeted by the EC2 console window, which appear somewhat the followin
 ![Screenshot (1269)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/b604413a-787f-4736-a7fc-8b4272ef9f92)
 
 <b>Step 4:</b> <b>Launch an Instance</b> Tab opens up, now we follow the steps:  
-
   a) Under 'Name and Tags', we enter the 'Name' here the name will be "My First Instance".  
   ![Screenshot (1257)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/3b3277d8-f916-4399-a62b-37430a762d6d)  
   
