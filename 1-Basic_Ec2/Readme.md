@@ -16,18 +16,17 @@ Friendly reminder " I am not the owner of the content in the 'medium website' an
 
 <b>Step 1:</b> Login to AWS Console. 
 
-<b>Step 2:</b> In to AWS console head to Search and type 'EC2'. and the results should appear as follows: 
+<b>Step 2:</b> In to AWS console head to <i>Search</i> and type <b>'EC2'</b>. and the results should appear as follows: 
 ![Screenshot (1267)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/fd23901f-b7a5-4fc4-9093-51f41e4b8059)
 Now we are greeted by the EC2 console window, which appear somewhat the following picture depicts (Since Amazon has taken the initiative to change the appearance of how AWS looks, with time the appearance may change!).
 ![Screenshot (1268)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/2440fcdd-9fc5-4af8-bdca-2e08ea4f3f09)  
 
-<b>Step 3:</b> Under 'Resources', click on "Instances".  
-  a) The 'Instances' window shall open up.  
+<b>Step 3:</b> Under <i>'Resources'</i>, click on <b>"Instances"</b>.  
+  a) The <b>'Instances'</b> window shall open up.  
   b) Now make sure to click on "Launch Instances".  
 ![Screenshot (1269)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/b604413a-787f-4736-a7fc-8b4272ef9f92)
 
-
-<b>Step 4:</b> Launch an Instance Tab opens up, now we follow the steps:  
+<b>Step 4:</b> <b>Launch an Instance</b> Tab opens up, now we follow the steps:  
 
   a) Under 'Name and Tags', we enter the 'Name' here the name will be "My First Instance".  
   ![Screenshot (1257)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/3b3277d8-f916-4399-a62b-37430a762d6d)  
@@ -63,11 +62,11 @@ Now we are greeted by the EC2 console window, which appear somewhat the followin
     ![Screenshot (1263)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/c1237bfa-02b2-4b64-8774-605b13431bc1)
   
   h) Under Summary check all the information provided.  
-    i) We only keep '1' instance.  
-    ii) Then we click on 'Launch Instance'. 
+    i) We only keep <b>'1'</b> instance.  
+    ii) Then we click on <i>'Launch Instance'</i>. 
     ![Screenshot (1264)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/f1726038-b1fe-44a8-9422-fdb4cad9691a) 
 
-<b>Step 5:</b> We wait for the 2/2 under 'status check'.
+<b>Step 5:</b> We wait for the <b>2/2</b> under <i>'Status Check'</i>.
 ![Screenshot (1266)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/d5d8ed87-d541-4d48-92ac-32e110088af3)
   
 <b>Step 6:</b> Lastly, we copy the public IPv4 address and paste it on a new tab.  
