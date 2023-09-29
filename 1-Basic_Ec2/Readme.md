@@ -1,15 +1,16 @@
-Hello Everyone 👋 this is a guide on how to create a basic EC2 instance and use EC2 User Data Script.
+Hello Everyone 👋 this is a guide on how to <b>Create a basic EC2 instance</b> and use <b>EC2 User Data Script</b>.  
 
-Now before using the EC2 User Data let's dive deep into what is EC2 User Data and what is the need of using a EC2 User Data Script: 
-a) By using the EC2 user data Script, we can bootstrap our EC2 instances. 
-b) Bootstrapping means "Launching Commands" when a machine starts. 
-This script is only run once, when the machine first starts! 
-EC2 User Data is used to automate tasks like: 
-i) Installing Updates. 
-ii) Installing Software. 
-iii) Downloading common files from the Internet, and so on. 
-A point to be noted is that the EC2 User Data Script runs with the 'Root User'. 
-To know more about the EC2 User Data and BootStraps refer to this website : (https://blog.devops.dev/aws-ec2-elastic-compute-cloud-8f964f844461). Friendly reminder " I am not the owner of the content in the 'medium website' and I am pasting the link just for reference purpose. 
+Now, before using the <i>EC2 User Data</i> let's dive deep into what is <b>EC2 User Data</b> and what is the need of using an EC2 User Data Script:  
+a) By using the <b>EC2 User Data Script</b>, we can <i>Bootstrap</i> our EC2 instances.  
+b) Bootstrapping means <b>"Launching Commands"<b> when a machine starts.  
+This <i>script</i> is run <b>only once</b>, when the machine first starts!  
+EC2 User Data is used to automate tasks like:  
+i) Installing Updates.  
+ii) Installing Software.  
+iii) Downloading common files from the Internet, and so on.  
+A point to be noted is that the EC2 User Data Script runs with the <b>'Root User'</b>.  
+To know more about the EC2 User Data and BootStraps refer to this website : (https://blog.devops.dev/aws-ec2-elastic-compute-cloud-8f964f844461).  
+Friendly reminder " I am not the owner of the content in the 'medium website' and I am pasting the link just for reference purpose. "
 
 Now,  we will look into the steps on how to create an EC2 instance and how to host the Website! 
 
