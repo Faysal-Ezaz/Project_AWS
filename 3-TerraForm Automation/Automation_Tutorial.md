@@ -189,7 +189,7 @@ k) Then we copy the following code:
 l) We past the code in the GitBash Input console: (also keep in mind that we have made a few changes, refer to the below screenshot for proper reference, especially the ami-id <b><i>REFER to step-2 part(c)</i></b> for this!)  
 ![Screenshot (1382)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/a56e80cb-db45-40ca-b1b2-5f50c67f6b51)  
 
-m) We then press the "<b>ESC</b> button and then type the command "<i>:wq<i>", this will return us to the original GitBash console.  
+m) We then press the "<b>ESC</b> button and then type the command "<i>:wq</i>", this will return us to the original GitBash console.  
 ![Screenshot (1383)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/93a51dec-231d-4997-aafa-c753c3b4d4ac)  
 
 Step-5: From this step onwards, we will see how the EC2 instance is automatically created 
