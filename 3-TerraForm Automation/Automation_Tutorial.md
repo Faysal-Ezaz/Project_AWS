@@ -3,8 +3,7 @@ Pre-requisits:
 (a) <b>AWS IAM</b> and  
 (b) <b>AWS EC2</b>. Please keep in mind that this will contain a detailed explaination of all the commands used and all the steps followed.  
 
-A short note on <b>Terraform</b> and why it is used  
-
+A <i>short note</i> on <b>Terraform</b> and why it is used:  
 Terraform is an <b>infrastructure as code</b> tool that lets you <i>build, change, and version</i> cloud and on-prem resources safely and efficiently.  
 Terraform was first released in July 2014 by a company named <b>"HashiCorp"</b>.  
 Terraform creates and manages resources on cloud platforms and other services through their application programming interfaces (APIs). Providers enable Terraform to work with virtually any platform or service with an accessible API.
