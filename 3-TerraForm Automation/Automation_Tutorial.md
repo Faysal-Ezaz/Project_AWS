@@ -203,6 +203,25 @@ b) Then we type the command "<b>terraform plan</b>".
 c) Then we type in the command "<b>terraform apply</b>"  
 ![Screenshot (1388)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/ab05dee9-18b9-41b8-a163-8bf155242c2e)  
 after this type in "yes" (refer to the below screenshot)  
+![Screenshot (1389)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/7870cd23-df28-434a-a3e6-c289509c54de)    
 
+d) After we typed 'yes', we have to go back to AWS console and open up EC2, there we will see that our instance, <b>Server1</b> has been created and is running.  
+![Screenshot (1346)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/93a6e679-08c9-4d9b-9be5-652d148898b0)  
+
+e) Now that the EC2 instance "<b>Server1</b> has been created, we need to terminated the instance, for this open <i>GitBash</i> terminal, and type the command, (<b>terraform destroy</b>). 
+![Screenshot (1347)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/93da59e7-52c9-4ef2-b132-9b12d597ef1c)  
+
+Remember to type <b>"yes"</b>
+![Screenshot (1348)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/3c3faf97-27d3-4ee3-a5dc-56bc1e109908) 
+![Screenshot (1349)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/f0455cd4-8c95-4cea-b37e-43a066fa9628) 
+
+
+
+Now, the above command will terminate our Instance "Server1". 
+
+Congratulations, the entire project is complete ☺️☺️..  
+Hope you enjoyed this project.  
+Make sure to drop a follow for more such projects.  
+Thank you bye 👋. 
 
 
