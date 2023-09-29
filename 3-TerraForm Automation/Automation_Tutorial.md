@@ -164,7 +164,7 @@ e) For this, we will have to scroll down to <b>"Provider Configuration"</b> and 
 ![Screenshot (1377)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/75368ec6-f0a2-47d5-85dd-cd117b7f2eb4)  
 
 <b>Important</b>
-Please keep in mind that <b>one change</b> has been made to the code, that is (<b>region = "us-west-2"<b> has been changed to <i>region = "ap-south-1"<i>). This is region specific and can be changed accorddingly.  
+Please keep in mind that <b>one change</b> has been made to the code, that is (<b>region = "us-west-2"<b> has been changed to <i>region = "ap-south-1"</i>). This is region specific and can be changed accorddingly.  
 Now we previously saved the <b>Access Key</b> ".csv" file, we need to open that and paste that in their respective places.  
 <b>access_key = "AKIARLWOAA5XCJNJ74EU" </b>  
 <b>secret_key = "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" </b>  
