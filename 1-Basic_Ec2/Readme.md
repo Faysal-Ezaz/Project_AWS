@@ -58,7 +58,17 @@ Now we are greeted by the EC2 console window, which appear somewhat the followin
     i) Firstly click on the arrow next to Advanced details, so we get more options.  
     ii) Then we scroll down to 'User Data'.  
     iii) Then we enter the following code (Please copy the code from the attached screenshot!). 
-    ![Screenshot (1263)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/c1237bfa-02b2-4b64-8774-605b13431bc1)
+    ![Screenshot (1263)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/c1237bfa-02b2-4b64-8774-605b13431bc1)  
+    
+    For more help <b>directly copy the code</b>:  
+    #!/bin/bash  
+    # Use this for your user data (script from top to bottom)  
+    # install httpd (Linux 2 version)  
+    yum update -y  
+    yum install -y httpd  
+    systemctl start httpd  
+    systemctl enable httpd  
+    echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
   
   h) Under Summary check all the information provided.  
     i) We only keep <b>'1'</b> instance.  
