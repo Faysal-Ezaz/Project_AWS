@@ -27,4 +27,4 @@ Step_3) Under <b>AWS Policy Generator</b>
       VII) Then we will <i>copy</i> the code.  
       VIII) Then we head back to the previous tab and then <b>paste the code</b> under "Policy".  
       IX) Then we click on <b>Save Changes</b>
-![Uploading Screenshot (1584).png…]()
+![Screenshot (1584)](https://github.com/Faysal-Ezaz/Project_AWS/assets/95119493/406f2f77-e079-43a8-9bb3-fefbd90a85b7)  
