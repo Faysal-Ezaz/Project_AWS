@@ -1,3 +1,7 @@
+Please keep in mind that this is a continuation of the 2nd file of this section.  
+Here are the steps to host a static website by updating the <b>S3 bucket policy</b>. 
+
+
 First we head over to Buckets under S3, then we open the bucket named <b>test-userbucket-1</b> and then follow the following steps:  
 
 Step_1) We head over to <b>Permissions</b> and follow the steps:   
