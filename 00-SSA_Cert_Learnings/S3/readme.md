@@ -33,3 +33,21 @@ The <i>characteristics</i> of an <b>Object</b>
     </ol>
   </li>
 </ol>
+
+
+The <b>benefits</b> of S3 are:  
+<ul>
+  <li>Durability</li>
+  <li>Scalability
+    <ol>
+      <li>provides a <b>virtually unlimited capacity</b> to store your data, hence <i>scalable</i>.</li>
+    </ol>
+  </li>
+  <li>Availability
+    <ol>
+      <li>Availability refers to our ability to access our data quickly, when we want it.</li>
+    </ol>
+  </li>
+  <li>Security</li>
+  <li>Performance</li>
+</ul>
