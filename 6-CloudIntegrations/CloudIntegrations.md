@@ -9,6 +9,7 @@
   <li><b>Asynchronus</b> Communication / <i>Event</i> based
     <ul>
       <li>application to <b>queue</b> to applicaiton</li>
+      <li>I will focus more on this topic and the different AWS Services available, that supports this!
     </ul>
   </li>
 </ol>  
