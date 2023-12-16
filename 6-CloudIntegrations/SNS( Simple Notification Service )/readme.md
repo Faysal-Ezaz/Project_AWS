@@ -16,3 +16,5 @@ In SNS, we use the <b>Pub/Sub</b> type of integration:
   <li>We can send directly into an http/https endpoints.</li>
   <li><b>Notification, Publish, Subscribers</b> are the keywords that refer to AWS SNS in the CP exam.</li>
 </ul>  
+
+SQS-HandsOn.md is the file where the hands on is stored. 
