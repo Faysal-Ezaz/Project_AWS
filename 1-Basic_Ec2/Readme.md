@@ -2,17 +2,20 @@ Hello Everyone 👋 this is a guide on how to <b>Create a basic EC2 instance</b>
 
 Now, before using the <i>EC2 User Data</i> let's dive deep into what is <b>EC2 User Data</b> and what is the need of using an EC2 User Data Script:  
 a) By using the <b>EC2 User Data Script</b>, we can <i>Bootstrap</i> our EC2 instances.  
-b) Bootstrapping means <b>"Launching Commands"<b> when a machine starts.  
-This <i>script</i> is run <b>only once</b>, when the machine first starts!  
-EC2 User Data is used to automate tasks like:  
+b) Bootstrapping means <b>"Launching Commands"<b> when a machine starts.      
+This <i>script</i> is run <b>only once</b>, when the machine first starts!    
+
+EC2 User Data is used to <b>automate</b> tasks like:  
 i) Installing Updates.  
 ii) Installing Software.  
 iii) Downloading common files from the Internet, and so on.  
+
 A point to be noted is that the EC2 User Data Script runs with the <b>'Root User'</b>.  
-To know more about the EC2 User Data and BootStraps refer to this website : (https://blog.devops.dev/aws-ec2-elastic-compute-cloud-8f964f844461).  
+To know more about the EC2 User Data and BootStraps refer to this website : (https://blog.devops.dev/aws-ec2-elastic-compute-cloud-8f964f844461).    
+
 Friendly reminder " I am not the owner of the content in the 'medium website' and I am pasting the link just for reference purpose. "
 
-<h2>Now, We will look into the steps on how to <b>create</b> an EC2 instance and how to host the Website!</h2> 
+## <b>Steps</b> on how to <b>Create</b> an EC2 instance and how to <b>Host</b> the Website! 
 
 <b>Step 1:</b> Login to AWS Console. 
 
