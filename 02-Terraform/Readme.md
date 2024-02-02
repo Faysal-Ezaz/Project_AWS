@@ -37,4 +37,4 @@ It provides a clean and readable syntax for expressing resources and their depen
   The above article is not mine and is taken from <b>LinkedIn</b> for reference on HCL as a descriptive language. 
 </details>  
 
-[🔙](/Proj-1) Proj-1
+[🔙]([/Proj-1](https://github.com/Faysal-Ezaz/Project_AWS/tree/main/02-Terraform)https://github.com/Faysal-Ezaz/Project_AWS/tree/main/02-Terraform) Proj-1
