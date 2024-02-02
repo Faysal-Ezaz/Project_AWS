@@ -11,6 +11,7 @@
   <li>Infrastructure is described using a high-level configuration syntax.</li>
   <li>IaC makes it easy to provision and apply infrastructure configurations, saving time. </li>
   <li>It standardizes workflows across different infrastructure providers (e.g., VMware, AWS, Azure, GCP, etc.) by using a common syntax across all of them.</li>
+  <li>It is infrastructure (CPUs, memory, disk, firewalls, etc.) defined as code within definition files.</li>
 </ol>
  
     
