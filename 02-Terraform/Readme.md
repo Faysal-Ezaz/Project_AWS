@@ -35,5 +35,6 @@ It provides a clean and readable syntax for expressing resources and their depen
   <summary>Please Ignore this</summary>
   Reference material for HCL Language:  https://www.linkedin.com/pulse/terraform-configuration-language-hcl-ajay-umredkar/  
   The above article is not mine and is taken from <b>LinkedIn</b> for reference on HCL as a descriptive language. 
-</details>
+</details>  
+
 [🔙](/Proj-1) Proj-1
