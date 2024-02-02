@@ -4,7 +4,7 @@
 </span>
   
 [<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4qtUfAwWfNV_WEJgT15TZDgq63qtpmK6bUw&usqp=CAU" align="right" width="" height="" alt="Terraform By HashiCorp"></img>](https://www.terraform.io/)  
-## Purpoes of Creating this directory: 
+## Purpose of Creating this directory: 
 <ol>
   <li>I shall be storing my Terraform Projects.</li>
   <li>Terraform helps creates and manages resources on cloud platforms.</li>
