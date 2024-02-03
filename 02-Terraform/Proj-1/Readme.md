@@ -57,10 +57,8 @@ Then, we do the following: ![Screenshot 2024-02-04 033206](https://github.com/Fa
 From the dropdown menu, we click on <b>Open GitBash here.</b>  
 #### For the <b>Commands</b>  
 <b>Git Bash commands: </b>  
-`pwd 
-`This will verify if we are in the correct directory and the correct file.  
-`vi file1.tf
-`This will create the new terraform file.  
+1. `pwd` This will verify if we are in the correct directory and the correct file.  
+2. `vi file1.tf`  This will create the new terraform file.  
 
 <b>Terraform Commands</b>  
 1. `terraform init` to prepare the working directory for use with Terraform, this command performs Backend Initialization, Child Module Installation, and Plugin Installation 
