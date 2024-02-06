@@ -75,7 +75,26 @@ From the dropdown menu, we click on <b>Open GitBash here.</b>
   <li>We go back to GitBash CLI, copy some code snippets from Terrafom.io and past it in the window</li>
   <li>We shall then use the terraform commands in the relevant order.</li>
   <li>At last we have to use the command <i>terraform destroy</i> to remove all the infrastructure managed by AWS.</li>
-</ol>
+</ol>  
+
+## Hands On:   
+Assuming that the above steps(Creating a new <b>terraform directory</b> on system, <b>installing terraform</b> and <b>gitbash</b> is done, also <b>signed in to AWS</b> Account) are done, we shall proceed with the following steps:  
+
+<b>GitBash</b> codes:  
+- `pwd`: This will help verify the current directory.
+- `vi terrfile1.tf`: This will take us to another input screen <b>(Let for out reference, call it <i>vi</i> editor), Inside that screen, we need to type in the following code:
+```terraform
+terraform {
+ required_providers {
+   aws = {
+     source  = "hashicorp/aws"
+     version = "~> 5.0"
+   }
+ }
+}
+```
+The result of the code shall be that, it will help us connect to the <b>AWS Server</b>.  
+
 
 
 
