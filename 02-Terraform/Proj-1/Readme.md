@@ -102,12 +102,34 @@ In the GitBash console, we type the command
 ```terraform
 terraform init
 ```
-If everything is done correctly, the result should be `All the plugins are initialized in the backend`
+If everything is done correctly, the result should be `All the plugins are initialized in the backend`  
+
+After the `terraform init` command is initialized, we will move to our <b>AWS Account</b>.  
+<ol>
+  <li>
+    First we move to <b>AWS IAM</b> and create a User by following the steps:
+    <ul>
+      <li>Under 'User details': fill up name, and click on next.</li>
+      <li>Under <b>Permission Options</b>, click on <i>Attach Policies directly</i> and then click on 'Administrative Access'.</li>
+      <li>Under Review and Create, click on <b>Create User</b>.</li>
+    </ul>
+  </li>
+  <li>
+    Next, we click on the <b>Created User</b> and try and generate the <i>Access Key</i>
+    <ul>
+      <li>Click on `Create Access Key`</li>
+      <li>Then `Application Running on an AWS Compute Service. `</li>
+      <li>Then `Click on Create Access Key. Download the .CSV file`</li>
+    </ul>
+  </li>
+</ol>  
+The outcome of the above task shall be the <b>Creation of a Terraform User</b>, give <b>Admin Access</b> to the user by setting up the <i>permissions</i>.  
+After this there shall be no need to Visit AWS Console again.  
 
 
 
 <details>
-  <summary>Please ignore this, this is only for my refernce. </summary>
+  <summary>Please ignore this, this is only for my reference. </summary>
   Refer to this link for Terraform Cheat sheet.  
   https://spacelift.io/blog/terraform-commands-cheat-sheet
 </details>
