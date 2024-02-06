@@ -93,8 +93,16 @@ terraform {
  }
 }
 ```
-The result of the code shall be that, it will help us connect to the <b>AWS Server</b>.  
+The result of the code shall be that, it will help us connect to the <b>AWS Server</b>.   
+In order to exit this <i>vi text editor</i>, first press `ESC` followed by `:wq`  
+In the <b>Git Bash</b> console, typing `~ls -a`, the result should be `terrfile1.tf`.
 
+After this is done, we will need to work with some <b>terraform code</b>.   
+In the GitBash console, we type the command  
+```terraform
+terraform init
+```
+If everything is done correctly, the result should be `All the plugins are initialized in the backend`
 
 
 
