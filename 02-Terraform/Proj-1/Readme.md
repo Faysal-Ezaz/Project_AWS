@@ -126,7 +126,26 @@ After the `terraform init` command is initialized, we will move to our <b>AWS Ac
 The outcome of the above task shall be the <b>Creation of a Terraform User</b>, give <b>Admin Access</b> to the user by setting up the <i>permissions</i>.  
 After this there shall be no need to Visit AWS Console again.  
 
-
+#### Coming back to Git Bash again:  
+we open the file by typing `vi terrfile1.ts` this redirects us to the vi editor.  
+```terraform
+provider "aws" {
+  region     = "ap-south-1"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
+} 
+```
+Then we exit the vi editor using the commands `ESC` followed by `:wq`.  
+After the above code is written in the Vi editor,   
+In GitBash console, we type the command:   
+```terraform
+terraform plan
+```
+but at this phase it will show no changes. As we havent created any instances yet.  
+```terraform
+terraform apply
+```
+even this shall show no changes that are to be made. 
 
 <details>
   <summary>Please ignore this, this is only for my reference. </summary>
