@@ -21,7 +21,8 @@
       </ul>
     </li>
     <li><a href="#commands-used">Commands Used</a></li>
-    <li><a href="#hands-on">Hands On</a></li>
+    <li><a href="#hands-on">Hands On</a></li>  
+    <li><a href=#summarizing>Summarizing</a></li>
   </ul>
 </details> 
 
@@ -184,9 +185,50 @@ terraform apply
 ```
 After executing this command, the console will ask us if we want to apply (This takes some time).  
 Then we have to type `Enter a value: Yes`.   
-The result of this code shall be `aws_isntance.web: Creating...`  
-Then we need to head over to <b>Instances</b> in the AWS conosle and it shows, instance <b>web</b> has been created. 
+The result of this code shall be `aws_isntance.web: Creating...`, then `Apply Complete! Resources: 1 added, 0 changed, 0 destroyed`.   
+Then we need to head over to <b>Instances</b> in the AWS conosle and it shows, instance <b>server1</b> has been created.   
 
+Now we need to shut down that machine for this the command,  
+```terraform
+terraform destroy
+```
+shall be used  
+`Enter a value: Yes`.  
+After this if we check in our aws console, we can see that the EC2 instance has been deleted.   
+
+### Summarizing:   
+```terraform
+terraform {
+ required_providers {
+   aws = {
+     source  = "hashicorp/aws"
+     version = "~> 5.0"
+   }
+ }
+}
+provider "aws" {
+  region     = "ap-south-1"
+  access_key = "my-access-key"
+  secret_key = "my-secret-key"
+}
+resource "aws_instance" "web" {
+  ami           = "provide_your_ami_id"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "server1"
+  }
+}
+```
+The terraform code snippets that will go in the `vi file1.tf` editor,   
+```terraform
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+```
+These are the commands used in the GitBash console. 
   
     
 <details>
