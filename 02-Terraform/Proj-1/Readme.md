@@ -145,10 +145,44 @@ but at this phase it will show no changes. As we havent created any instances ye
 ```terraform
 terraform apply
 ```
-even this shall show no changes that are to be made. 
+even this shall show no changes that are to be made.   
+`Apply complete! Resources: 0 added, 0 changed, 0 destroyed.` This is the output for the <b>Apply</b> code.  
+
+Now, we go the `file1.tf` and write the <b>code for EC2 instance creation</b>.   
+For this we type `vi file1.tf` in <b>GitBash</b> console. Following this the vi file editor should open up,  
+Now to copy the code snippet, we redirect to [Click on this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance).  
+AWS Provider > EC2 ( Elastic Compute Cloud ) > aws_instance.   then we copy the following and paste it in vi file editor.  
+```terraform
+resource "aws_instance" "web" {
+  ami           = "provide_your_ami_id"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "server1"
+  }
+}
+```  
+here, we are creating the <b>EC2 isntance</b>, <i>web</i> is the name of the instance, (we can change the name if needed).  
+[To fetch AMI id](https://www.youtube.com/watch?v=BkG09nrh_7s), always remember to put the ami id in double quotes.  
+Next, we exit the vi file editor console by pressing `ESC` button followed by `:wq`.  
+
+Next in the GitBash console, we execute the following commands.  
+In order to dry run/check for any syntax errors, we type the command  
+```terraform
+terraform validate
+```
+this shows any possible error that may be present.   
+if there are no errors in the code then, `Success! The configuration is valid` shall be shown.  
+
 
 <details>
   <summary>Please ignore this, this is only for my reference. </summary>
   Refer to this link for Terraform Cheat sheet.  
-  https://spacelift.io/blog/terraform-commands-cheat-sheet
+  https://spacelift.io/blog/terraform-commands-cheat-sheet  
+
+Now, we have to redirect to AWS console:  
+Inside, we open EC2 Console, click on <b>instances</b>.  
+Then click on <b>Launch instance</b>.  
+We select the <b>appropriate AMI</b>.  
+
 </details>
