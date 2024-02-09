@@ -172,9 +172,23 @@ In order to dry run/check for any syntax errors, we type the command
 terraform validate
 ```
 this shows any possible error that may be present.   
-if there are no errors in the code then, `Success! The configuration is valid` shall be shown.  
+if there are no errors in the code then, `Success! The configuration is valid` shall be shown.    
 
+```terraform
+terraform plan
+```
+This command will show the steps that will be executed after we execute the command `terraform apply`.    
 
+```terraform
+terraform apply
+```
+After executing this command, the console will ask us if we want to apply (This takes some time).  
+Then we have to type `Enter a value: Yes`.   
+The result of this code shall be `aws_isntance.web: Creating...`  
+Then we need to head over to <b>Instances</b> in the AWS conosle and it shows, instance <b>web</b> has been created. 
+
+  
+    
 <details>
   <summary>Please ignore this, this is only for my reference. </summary>
   Refer to this link for Terraform Cheat sheet.  
@@ -183,6 +197,8 @@ if there are no errors in the code then, `Success! The configuration is valid` s
 Now, we have to redirect to AWS console:  
 Inside, we open EC2 Console, click on <b>instances</b>.  
 Then click on <b>Launch instance</b>.  
-We select the <b>appropriate AMI</b>.  
+We select the <b>appropriate AMI</b>.    
+
+Terraform uses the <b>Declarative</b> approach, so whatever information we donot provide, terraform will figure out from itseld based on the user's usage. 
 
 </details>
