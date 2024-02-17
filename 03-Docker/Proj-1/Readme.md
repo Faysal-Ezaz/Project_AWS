@@ -3,10 +3,11 @@ For this we will need to focus on these core points:
 <details>
   <summary>Click to expand</summary>
 <ul>
-  <li><a href="#">AWS</a></li>
-  <li><a href="#">Putty Gen</a></li>
-  <li><a href="#">Putty</a></li>  
-  <li><a href="#">Docker Commands</a></li>
+  <li><a href="#AWS">AWS</a></li>
+  <li><a href="#Putty-Gen">Putty Gen</a></li>
+  <li><a href="#Putty">Putty</a></li>  
+  <li><a href="#Docker-Commands">Docker Commands</a></li>  
+  <li><a href="#Work-Plan">Work Plan</a></li>
 </ul>
 </details>  
 
@@ -21,7 +22,26 @@ Then need to follow the steps:  (main overview is that using this software we co
 
 ## Putty  
 For this I need to use the <b>Putty software</b>  
-Using this software we will connect to the main software where all the docker commands will be written.  
+Using this software we will connect to the main terminal where all the docker commands will be written.  
 
 
 ## Docker Commands  
+These commands are essential as they will help, create the container, for this there are a few steps that needs to be executed in order to achieve the same.  
+They are as follows:  
+<ul>
+    <li>
+      To create the containers: 
+      <ol>
+          <li>We need to call the images first.</li>
+          <li>After this we will be able to create the docker containers.</li>      
+      </ol>
+    </li>
+    <li>
+      To delete the containers: 
+      <ol>
+        <li>All the containers created have to be deleted</li>
+        <li>Then the images can be removed and the vice versa is not possible</li>
+      </ol>
+    </li>
+</ul>  
+
