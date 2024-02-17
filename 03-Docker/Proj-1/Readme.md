@@ -43,5 +43,45 @@ They are as follows:
         <li>Then the images can be removed and the vice versa is not possible</li>
       </ol>
     </li>
-</ul>  
+</ul>    
 
+
+## Work Plan:  
+### First we have to work with AWS:  
+<ol>
+  <li>
+    Create an EC2 instance.  
+      While creating the EC2 instance, there is a small step that needs to be performed:   
+      <ul>
+        <li>First we head over to <b>Security group</b>, Enter the name for the <i>security group</i></li>
+        <li>Then we install the `.pem` file in our system.</li>  
+      </ul>
+  </li>
+  <li>After creation of the EC2 instance, we need to copy the <b>Public IPv4</b> of the same.</li>  
+</ol>  
+### Then coming to Putty Gen software,  
+<ol>
+  <li>First we open Putty-Gen</li>
+  <li>Then we click on Load and head over to the location where the `.pem` file is stored.</li>  
+  <!--I will add all the steps later on after this.-->
+</ol>
+### Then working with <b>Putty Software</b>  
+  <!--I shall add this in this later on moving on to the Docker commands.-->   
+
+
+### Docker Commands required:  
+`Sudo su` This command is used to become the root user.  
+`yum update -y`  Update Command Center.  
+`yum install docker` To install Docker.  
+`service status docker` Command to check if Docker is Installed or not.  
+    - `service docker start` Command to start Docker.  
+    - `service docker status` To recheck.  
+`docker info` To get information of the system where Docker is Installed.  
+`docker images` To check the <i>number of docker images</i> built.  
+`docker ps` To see only the running containers  
+    - `docker ps -a` This is to check all the containers.  
+`docker run ubuntu` check and pull(install) the image create and continue.  
+    - `docker ps -a`  
+    - `docker images` These two commands are used to check again.  
+`docker run --name(abc) ubuntu/bin/bash`  Command to run the container.  
+``
