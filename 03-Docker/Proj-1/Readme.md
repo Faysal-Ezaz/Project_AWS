@@ -83,5 +83,13 @@ They are as follows:
 `docker run ubuntu` check and pull(install) the image create and continue.  
     - `docker ps -a`  
     - `docker images` These two commands are used to check again.  
-`docker run --name(abc) ubuntu/bin/bash`  Command to run the container.  
-``
+`docker run --it --name abc ubuntu/bin/bash`  Command to run the container.  
+`docker start abc`  
+`docker attach abc` command to go inside the container.  
+`docker stop abc` to stop/exit the container.  
+`docker rm abc` to delete the container.  
+`docker image rm ubuntu` to delete the image ubuntu.  
+`docker pull ubuntu`  
+`docker system df` to view all the details available in the system.  
+`docker system prune` to free the space by deleting all the stopped containers.  
+
