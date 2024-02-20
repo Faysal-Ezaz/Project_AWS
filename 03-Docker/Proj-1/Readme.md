@@ -59,13 +59,17 @@ They are as follows:
   </li>
   <li>After creation of the EC2 instance, we need to copy the <b>Public IPv4</b> of the same.</li>  
 </ol>  
+
 ### Then coming to Putty Gen software,  
 <ol>
   <li>First we open Putty-Gen</li>
-  <li>Then we click on Load and head over to the location where the `.pem` file is stored.</li>  
-  <!--I will add all the steps later on after this.-->
-</ol>
-### Then working with <b>Putty Software</b>  
+  <li>Then we click on <b>Load</b> and head over to the location where the `.pem` file is stored.</li>  
+  <li>Then we click on <i>"Ok"</i> an it shows <b>`You have successfully imported the file format`</b>.</li>  
+  <li>Under <b>"Actions"</b>, we click on the option <b>`Save Private Key`</b>.</li>  
+  <li>Then we click on the option <i>Yes</i> and save the file with the `.ppk` extension.</li>
+</ol>    
+  
+### Then working with <b>Putty Software</b> to access our EC2 instance 
   <!--I shall add this in this later on moving on to the Docker commands.-->   
 
 
