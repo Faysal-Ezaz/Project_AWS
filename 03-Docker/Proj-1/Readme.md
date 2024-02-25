@@ -63,14 +63,29 @@ They are as follows:
 ### Then coming to Putty Gen software,  
 <ol>
   <li>First we open Putty-Gen</li>
-  <li>Then we click on <b>Load</b> and head over to the location where the `.pem` file is stored.</li>  
+  <li>Under <b>"Action"</b>we click on <b>Load</b> and head over to the location where the `.pem` file is stored.</li>  
   <li>Then we click on <i>"Ok"</i> an it shows <b>`You have successfully imported the file format`</b>.</li>  
   <li>Under <b>"Actions"</b>, we click on the option <b>`Save Private Key`</b>.</li>  
-  <li>Then we click on the option <i>Yes</i> and save the file with the `.ppk` extension.</li>
+  <li>Then we click on the option <i>Yes</i> and save the file with the `.ppk` extension.</li>  
 </ol>    
   
 ### Then working with <b>Putty Software</b> to access our EC2 instance 
-  <!--I shall add this in this later on moving on to the Docker commands.-->   
+  <ol>
+    <li>Firstly, the <b>IP Address</b> of the EC2 instance is needed. </li>
+    <li>Under <b>Host name or IP Address</b>, we paste the IPv4 of the EC2 instance. `ec2-user@IPv4address` To be done in this manner.</li>  
+    <li>Under Saved Sessions, we type the <b>name</b> for the same(<i>let it be Ec2Inst</i>) and then click on <i>Save</i>.</li>  
+  </ol>     
+  After following the above steps, we need to open console for the same, also these additional steps needs to be followed:  
+  <ol>
+    <li>Firstly, we open up the <i>putty console</i>.</li>
+    <li>Click on `Ec2Inst` and, click on <b>Load</b>.</li>
+    <li>Then under the <i>Side panel</i>, Under <i>Connections</i>, we click on <b>SSH</b>.</li> 
+    <li>Following this, we click on <b>Auth</b>, then we click on <b>'Credentials'</b></li>  
+    <li>Under <b>"Private Key file for Authentication"</b>, click on <i>Browse</i>.</li>  
+    <li>From the pop-up window, browser for the `.ppk` file and press on <b>Open</b>.</li>
+    <li>We go back to `Sessions` on the <i>side panel</i>, and on the main panel, click on <i>Save</i>, then <b>Open</b>.</li>  
+    After this <b>SSH console</b> shall open up, following this we are into the Amazon Linux 2 AMI instance. 
+  </ol>
 
 
 ### Docker Commands required:  
