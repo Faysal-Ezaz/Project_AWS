@@ -18,5 +18,7 @@ Next, I am Preparing for the <b>Almighty AWS Certified Solutions Architect Certi
   <summary>Ignore this!</summary>
   I was trying to use []() in some other form.  
   The following code is the same.  
-  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7155280608502403073/" style="color: black; text-decoration: underline; text-decoration-style: dotted">LinkedIn post 1</a>
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7155280608502403073/" style="color: black; text-decoration: underline; text-decoration-style: dotted">LinkedIn post 1</a>  
+  <br>
+  To study about <b>Kubernetes - K8s</b> refer to this link: <a href="https://www.armosec.io/glossary/yaml-kubernetes/#:~:text=In%20the%20context%20of%20Kubernetes,with%20other%20objects%2C%20and%20more.">Click here</a>
 </details>
