@@ -123,4 +123,21 @@
       </li>
     </ul>
   </li>
+</ol>  
+
+# Assigning IAM Role to the EC2 instance: 
+<ol>
+  <li>Step 1: Head to the AWS Connsole Management >> EC2 >> Instances(Running) then the following steps: 
+    <ul>
+      <li>Click on the EC2 instance,</li>
+      <li>To the Top Right Corner, <b>Actions</b> >> <i>Secruity</i></li>
+      <li>Then from the drop down menu, <b><i>Modify IAM Role</i></b></li>
+      <li>Then we select the required IAM Role.</li>
+    </ul>
+  </li>
+  <li> Explaination as to why a Role was assigned to the EC2 instance:
+    <ul>
+      <li>In short, this was done so that, the Python Script can create new EC2 instances without the need for the User's <i>private</i> <b>ACCESS KEYS</b>.</li>
+      <li>Providing the <i>Public</i> and <i>Private</i> Access Key is considered risky.</li>
+    </ul>
 </ol>
