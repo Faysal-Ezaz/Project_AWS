@@ -55,4 +55,72 @@
       </li>
     </ul>
   </li>
+  <li>Lastly, Termination of all the AWS Services Used.</li>
+</ol>  
+
+## Final Overview: 
+<ol>
+  <li>AWS to create EC2 instance.</li>
+  <li>AWS IAM to create Role to be assigned to EC2 instance.</li>
+  <li>AWS IAM to extract the <b>ACCESS KEYS</b>.</li>
+  <li>Putty Gen to extract the private key from .pem file</li>
+  <li>Putty to connect to the EC2 instance.</li>
+  <li>Jenkins to create Job and trigger build of newer EC2 instances.</li>
+  <li>Python3 Boto3 Script that will trigger the build of EC2 instance.</li>
+  <li>CleanUp.</li>
+</ol>  
+
+
+# Steps to Create the EC2 instance: 
+<ol>
+  <li>Step 1: Head to the AWS Console Management >> Search >> EC2.</li>
+  <li>Step 2: Under <b>Resources</b>, click on Instances >> <i>Launch Instance</i>.</li>
+  <li>Step 3: Then follow the steps => 
+    <ul>
+      <li>Under <i>Name and Tags</i> assign Name.</li>
+      <li>Under <i>Application and OS Images (Amazon Machine Image) </i>, choose <b>Ubuntu</b>.</li>
+      <li>Under <i>Instance Type</i>, choose <b>t2.medium</b>.</li>
+      <li>Under Key Pair >> Create New Key Pair: 
+        <ul>
+          <li>Under Key Pair Name >> Enter name of Key Pair</li>
+          <li>Under Key Pair Type >> Choose <b>RSA</b></li>
+          <li><i>Private Key File Format</i> >> Choose <b>.pem</b></li>
+          <li>Click on Create Key Pair.
+        </ul>
+      </li>
+      <li>Under Network Settings >> <b>Edit</b>
+        <ul>
+          <li>Under <i>Inbound Security Group Rules >> Add Security Group Rule</i>
+          <li>Type >> Custom TCP</li>
+          <li>Port Range >> 8080 [This is to let allow access to the Jenkins Portal.]</li>
+          <li>Also need to add Port 22</li>
+        </ul>
+      </li>
+      <li>For Configure Storage nothing needs to be changed.</li>
+      <li>Step 4: Then click on Launch Instance to launch the Instance.</li>
+    </ul>
+  </li>
+</ol>  
+
+# Steps to Create IAM Role. 
+<ol>
+  <li>Step 1: Head to AWS Console Management >> IAM >> Access Management >> Roles
+    <ul>
+      <li>Click on Create Role: </li>
+      <li>Under Select Trusted Entity
+        <ul>
+          <li>Trusted Entity Type >> <b>AWS Service</b></li>
+          <li>Use Case >> EC2  >> EC2</li>
+          <li>Click on Next.</li>
+        </ul>
+      </li>
+      <li>Under <b>Name, Review and Create >> Role Details >> Select Trusted Entities >> Add Permissions >> Add Tags do the following: </b>
+        <ul>
+          <li>Enter Role Name</li>
+          <li>Review the rest</li>
+          <li>Click on Create Role.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
 </ol>
