@@ -1,5 +1,5 @@
 Hello,  
-This is a mini Project where I have used AWS ELB and AWS ASG to create a highly scalable server.  
+This is a mini Project where I use AWS ELB and AWS ASG to create a highly scalable server.  
 
 <h2>The concept behind this project is as follows:</h2>  
 <ol>
@@ -11,7 +11,7 @@ This is a mini Project where I have used AWS ELB and AWS ASG to create a highly 
   <li>We then setup the Application Load Balancer.</li>  
   <ul>
     <li>The ALB helps distribute the load between the servers.</li>  
-    <li>The ALP is responsible for the help checkup of the instances.</li>
+    <li>The ALP is responsible for the health checkup of the instances.</li>
   </ul>  
   
   <li>We then setup Auto Scaling Group</li>  
