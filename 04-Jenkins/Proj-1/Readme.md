@@ -97,9 +97,9 @@
         </ul>
       </li>
       <li>For Configure Storage nothing needs to be changed.</li>
-      <li>Step 4: Then click on Launch Instance to launch the Instance.</li>
     </ul>
   </li>
+  <li>Step 4: Then click on Launch Instance to launch the Instance.</li>
 </ol>  
 
 # Steps to Create IAM Role. 
