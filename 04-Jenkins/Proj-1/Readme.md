@@ -158,7 +158,23 @@ Before Working with PuTTYGen, it is suggested to create a separate folder to sto
 </ol>   
 
 # Working with PuTTY:  
-<b>It allows to connect to remote computers or devices using various protocols such as secure socket shell (SSH), Telnet, login, and more.</b>
+<b>It allows to connect to remote computers or devices using various protocols such as secure socket shell (SSH), Telnet, login, and more.</b>  
 <ol>
-  <li></li>
+  <li>Open PuTTY Configurations
+    <ul>For Host Name, the name has to be of the form [default_name]@Ip eg: ec2-user@IP
+      <li>First we copy the name for the EC2 instance which can be done by Instances >> Connect >> copy the name assigned there.</li>
+      <li>Copy the Public IP</li>
+      <li>Under Host name, fill the name.</li>
+    </ul>
+  </li>
+  <li>From Category:
+    <ul>
+      <li>Connection >> SSH </li>
+      <li> Auth >> Credentials</li>
+      <li>Under <i>Private Key File for Authentication:</i> >> Browse</li>
+      <li>Click on Ok</li>
+      <li>Under Basic Options for your PuTTY session, click on <b>Save</b></li> 
+      <li>Finally click on Open</li>
+    </ul>
+  </li>
 </ol>
