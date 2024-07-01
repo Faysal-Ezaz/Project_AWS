@@ -140,4 +140,25 @@
       <li>In short, this was done so that, the Python Script can create new EC2 instances without the need for the User's <i>private</i> <b>ACCESS KEYS</b>.</li>
       <li>Providing the <i>Public</i> and <i>Private</i> Access Key is considered risky.</li>
     </ul>
+</ol>  
+
+# Working with PuttyGen:  
+<b>PuTTYGen</b> is a Key Generator tool for creating SSH keys for PuTTY.  
+The basic function is to create <b>public</b> and <b>private</b> key pairs.  
+Before Working with PuTTYGen, it is suggested to create a separate folder to store the <i>.pem</i> and <i>.ppk</i> files.
+<ol>
+  <li>Open PuTTYGen >> Actions >> Load an Existing Private Key File <b>Load</b>.
+    <ul>
+      <li>Load Private Key Dialogue box Opens up</li>
+      <li>From the Dropdown menu, click on <b>All Files</b> >> select the <i>.pem</i> file</li>
+      <li>Cick on Open</li>
+      <li>It shows "<b>You have sucessfully imported the file format</b>", click on OK</li>
+    </ul>
+  </li>
+</ol>   
+
+# Working with PuTTY:  
+<b>It allows to connect to remote computers or devices using various protocols such as secure socket shell (SSH), Telnet, login, and more.</b>
+<ol>
+  <li></li>
 </ol>
