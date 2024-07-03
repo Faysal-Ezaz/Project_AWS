@@ -237,4 +237,9 @@ Now The Jenkins Server will prompt for the <b>Admin Password</b>.
     </ul>
   </li>
 </ol>  
-Now the Jenkins Setup is Ready! 
+Now the Jenkins Setup is Ready!   
+
+## Now main Jenkins Part:  
+The main purpose of Jenkins is to create a <b>Job</b> which when triggered will build an EC2 instance for us. 
+
+
