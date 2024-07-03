@@ -177,4 +177,64 @@ Before Working with PuTTYGen, it is suggested to create a separate folder to sto
       <li>Finally click on Open</li>
     </ul>
   </li>
-</ol>
+</ol>    
+
+## Important point to note:  
+At this point we have to understand that, The PuTTY console is a <b>remote console</b> that connects to the EC2 instance whose Public IPv4 was verified at the PuTTY Console.  
+So any command and any changes triggered in the PuTTY remote console will directly effect the EC2 instance. 
+
+# Working with the PuTTY SSH terminal:  
+<ol>
+  <li>First install Java</li>
+  <li>Then install Jenkins</li>
+  <li>Then install Git</li>
+  <li>Then install Pip3</li>
+  <li>Then install Boto3</li>
+</ol>    
+  
+## Follow along the steps to do the same:  
+
+1) `sudo su`  This command will grant us the <b>admin access</b>.
+2) `sudo apt update`  This command refreshes the list of available packages and their versions.
+3) `sudo apt upgrade`  This command downloads new packages to a user's distribution.
+4) `sudo apt install openjdk-11-jdk`  This will install Java JDK onto our EC2 instance server. Jenkins needs Java to operate hence we install Java first.
+5) `java --version`  If the output of this command is a version number then we can be rest assured that Java has been successfully installed.
+6) `wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add - 
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'`  This is the Jenkins Repository that we need <b>for easier Installation and Updates</b>.
+7) `sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5BA31D57EF5975CA` This is the <b>GPG key</b>.  GPG-based signing workflow improves software security and seamlessly integrates with DevOps processes to sign binaries on Windows and Linux.
+8) `sudo apt update`
+9) `sudo apt install jenkins`  This command will install the latest version of Jenkins onto out EC2 instance.
+10) `sudo systemctl start jenkins`  This will start the Jenkins session onto our EC2 instance Server.
+11) `sudo systemctl enable jenkins`  This is to enable the Jenkins service to start on the system boot.
+12) `sudo apt-get install python3-pip3` This command shall allow us to install pip3 onto our EC2 server.
+13) `sudo apt install git-all`  This command shall allow us to install GIT onto the EC2 server.
+14) [To install Boto3 refer to this article](https://stackoverflow.com/questions/54753301/how-to-install-boto3-on-ubuntu-18-04).
+
+Now that <b>Jenkins</b> and all other necessary software are installed onto out EC2 instance server,  
+We need to access the Jenkins Server where we will be creating <b>Jenkins Jobs</b>.  
+
+For this we need the <b>Public IPv4</b> of the EC2 instance.  
+` http://your-instance-ip:8080`  Keep in mind that `your-instance-ip` should be replaced by the IP address of the EC2 instance.  
+
+Now The Jenkins Server will prompt for the <b>Admin Password</b>.  
+`sudo cat /var/lib/jenkins/secrets/initialAdminPassword`  This command on the <b>PuTTY remote Server</b> will give us the Password. Copy and Paste to <i>Unlock jenkins</i>.  
+
+## Working with Jenkins:  
+<ol>
+  <li>Getting Started
+    <ul>
+      <li>Click on Install Suggested Plugins.</li>
+    </ul>
+  </li>
+  <li>Create Admin User
+    <ul>
+      <li>Donot click on <b>Skip and Continue as Admin</b>.</li>
+      <li>Enter Username</li>
+      <li>Enter Password</li>
+      <li>Confirm the Password</li>
+      <li>Enter Full Name</li>
+      <li>Click on Save and Continue.</li>
+    </ul>
+  </li>
+</ol>  
+Now the Jenkins Setup is Ready! 
